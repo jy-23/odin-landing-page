@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Nav Bar */
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 2px solid blue;
+    justify-content: flex-end;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+/* Intro Section */
+.intro-container {
+    display: flex;
+    border: 2px solid purple;
+    flex: 1 1 auto;
+}
+
+/* Info Section */
+.info-section {
+    border: 2px solid green;
+    flex: 1 1 auto;
+}
+
+.info-container {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* Quote Section */
+.quote-section {
+    border: 2px solid red;
+    flex: 1 1 auto;
+}
+
+/* Action Section */
+.action-container {
+    border: 2px solid orange;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* Footer */
+.footer {
+    border: 2px solid gold;
+}
