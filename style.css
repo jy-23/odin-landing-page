@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 body {
@@ -17,10 +18,18 @@ nav > ul {
     display: flex;
     border: 2px solid blue;
     justify-content: flex-end;
+    background-color: #1F2937;
 }
 
 .header-logo {
     margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    color: #E5E7EB;
 }
 
 /* Intro Section */
@@ -28,6 +37,25 @@ nav > ul {
     display: flex;
     border: 2px solid purple;
     flex: 1 1 auto;
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color:#F9FAF8;
+    font-weight: bold;
 }
 
 /* Info Section */
@@ -41,20 +69,59 @@ nav > ul {
     flex: 1 1 auto;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-text {
+    color: #1F2937;
+}
+
 /* Quote Section */
 .quote-section {
     border: 2px solid red;
     flex: 1 1 auto;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* Action Section */
-.action-container {
+.action-section {
     border: 2px solid orange;
-    display: flex;
     flex: 1 1 auto;
+}
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.action-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /* Footer */
 .footer {
     border: 2px solid gold;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
